@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.2.1 commit date:2022-07-05, commit time:15:44, hash:a2d59b2dac9e</authoring_tool>
+    </contributor>
+    <created>2022-07-24T23:18:53</created>
+    <modified>2022-07-24T23:18:53</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="tns_net_a-effect">
+      <profile_COMMON>
+        <newparam sid="tns_net_a_png-surface">
+          <surface type="2D">
+            <init_from>tns_net_a_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tns_net_a_png-sampler">
+          <sampler2D>
+            <source>tns_net_a_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="tns_net_a_png-sampler" texcoord="UV_SINGLE"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tns_S_net-effect">
+      <profile_COMMON>
+        <newparam sid="tns_S_net_png-surface">
+          <surface type="2D">
+            <init_from>tns_S_net_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tns_S_net_png-sampler">
+          <sampler2D>
+            <source>tns_S_net_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="tns_S_net_png-sampler" texcoord="UV_SINGLE"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tns_line_c-effect">
+      <profile_COMMON>
+        <newparam sid="tns_line_c_png-surface">
+          <surface type="2D">
+            <init_from>tns_line_c_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tns_line_c_png-sampler">
+          <sampler2D>
+            <source>tns_line_c_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="tns_line_c_png-sampler" texcoord="UV_SINGLE"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tns_WALL_a9-effect">
+      <profile_COMMON>
+        <newparam sid="tns_WALL_a9_png-surface">
+          <surface type="2D">
+            <init_from>tns_WALL_a9_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tns_WALL_a9_png-sampler">
+          <sampler2D>
+            <source>tns_WALL_a9_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="tns_WALL_a9_png-sampler" texcoord="UV_SINGLE"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tns_logo_d-effect">
+      <profile_COMMON>
+        <newparam sid="tns_logo_d_png-surface">
+          <surface type="2D">
+            <init_from>tns_logo_d_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tns_logo_d_png-sampler">
+          <sampler2D>
+            <source>tns_logo_d_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="tns_logo_d_png-sampler" texcoord="UV_SINGLE"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tns_line_a-effect">
+      <profile_COMMON>
+        <newparam sid="tns_line_a_png-surface">
+          <surface type="2D">
+            <init_from>tns_line_a_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tns_line_a_png-sampler">
+          <sampler2D>
+            <source>tns_line_a_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="tns_line_a_png-sampler" texcoord="UV_SINGLE"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="tns_S_net_png" name="tns_S_net_png">
+      <init_from>tns_S_net.png</init_from>
+    </image>
+    <image id="tns_WALL_a9_png" name="tns_WALL_a9_png">
+      <init_from>tns_WALL_a9.png</init_from>
+    </image>
+    <image id="tns_line_a_png" name="tns_line_a_png">
+      <init_from>tns_line_a.png</init_from>
+    </image>
+    <image id="tns_line_c_png" name="tns_line_c_png">
+      <init_from>tns_line_c.png</init_from>
+    </image>
+    <image id="tns_logo_d_png" name="tns_logo_d_png">
+      <init_from>tns_logo_d.png</init_from>
+    </image>
+    <image id="tns_net_a_png" name="tns_net_a_png">
+      <init_from>tns_net_a.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="tns_net_a-material" name="tns_net_a">
+      <instance_effect url="#tns_net_a-effect"/>
+    </material>
+    <material id="tns_S_net-material" name="tns_S_net">
+      <instance_effect url="#tns_S_net-effect"/>
+    </material>
+    <material id="tns_line_c-material" name="tns_line_c">
+      <instance_effect url="#tns_line_c-effect"/>
+    </material>
+    <material id="tns_WALL_a9-material" name="tns_WALL_a9">
+      <instance_effect url="#tns_WALL_a9-effect"/>
+    </material>
+    <material id="tns_logo_d-material" name="tns_logo_d">
+      <instance_effect url="#tns_logo_d-effect"/>
+    </material>
+    <material id="tns_line_a-material" name="tns_line_a">
+      <instance_effect url="#tns_line_a-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="tns_net_a_md_005-mesh" name="tns_net_a.md.005">
+      <mesh>
+        <source id="tns_net_a_md_005-mesh-positions">
+          <float_array id="tns_net_a_md_005-mesh-positions-array" count="18">0 -0.6395 0 0 0 0.08422541 0 -0.6395 0.1000622 0 0 0 0 0.6395 0 0 0.6395 0.1000622</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_005-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md_005-mesh-normals">
+          <float_array id="tns_net_a_md_005-mesh-normals-array" count="3">1 0 0</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_005-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md_005-mesh-map-0">
+          <float_array id="tns_net_a_md_005-mesh-map-0-array" count="24">0 6 0 0 36.324 6 36.324 6 0 0 36.324 0 72.648 6 36.324 6 72.648 0 72.648 0 36.324 6 36.324 0</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_005-mesh-map-0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tns_net_a_md_005-mesh-vertices">
+          <input semantic="POSITION" source="#tns_net_a_md_005-mesh-positions"/>
+        </vertices>
+        <triangles material="tns_net_a-material" count="4">
+          <input semantic="VERTEX" source="#tns_net_a_md_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#tns_net_a_md_005-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#tns_net_a_md_005-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 0 0 1 1 0 2 1 0 3 0 0 4 3 0 5 5 0 6 1 0 7 4 0 8 4 0 9 1 0 10 3 0 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="tns_net_a_md_004-mesh" name="tns_net_a.md.004">
+      <mesh>
+        <source id="tns_net_a_md_004-mesh-positions">
+          <float_array id="tns_net_a_md_004-mesh-positions-array" count="18">0.02169692 -0.6534219 9.99999e-4 -0.1598137 -0.05671948 9.99999e-4 -0.1598137 -0.7101414 9.99999e-4 0.02169692 0 9.99999e-4 0.02169692 0.6534219 9.99999e-4 -0.1598137 0.5967024 9.99999e-4</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_004-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md_004-mesh-normals">
+          <float_array id="tns_net_a_md_004-mesh-normals-array" count="15">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_004-mesh-normals-array" count="5" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md_004-mesh-map-0">
+          <float_array id="tns_net_a_md_004-mesh-map-0-array" count="24">0 1 0 0 0.5 1 0.5 1 0 0 0.5 0 1 1 0.5 1 1 0 1 0 0.5 1 0.5 0</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_004-mesh-map-0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tns_net_a_md_004-mesh-vertices">
+          <input semantic="POSITION" source="#tns_net_a_md_004-mesh-positions"/>
+        </vertices>
+        <triangles material="tns_S_net-material" count="4">
+          <input semantic="VERTEX" source="#tns_net_a_md_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#tns_net_a_md_004-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#tns_net_a_md_004-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 0 0 1 1 1 2 1 1 3 0 0 4 3 2 5 5 3 6 1 1 7 4 4 8 4 4 9 1 1 10 3 2 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="tns_net_a_md_003-mesh" name="tns_net_a.md.003">
+      <mesh>
+        <source id="tns_net_a_md_003-mesh-positions">
+          <float_array id="tns_net_a_md_003-mesh-positions-array" count="60">0.00112468 -0.003749966 0 -0.00112468 -0.003749966 0.092 -0.00112468 -0.003749966 0 0.00112468 -0.003749966 0.092 -0.00112468 0.003749966 0 0.00112468 0.003749966 0.092 0.00112468 0.003749966 0 -0.00112468 0.003749966 0.092 -0.00112468 0.003749966 0.092 -0.00112468 -0.003749966 0 -0.00112468 -0.003749966 0.092 -0.00112468 0.003749966 0 0.00112468 0.003749966 0.092 -0.00112468 -0.003749966 0.092 0.00112468 -0.003749966 0.092 -0.00112468 0.003749966 0.092 0.00112468 0.003749966 0 0.00112468 -0.003749966 0.092 0.00112468 -0.003749966 0 0.00112468 0.003749966 0.092</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_003-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md_003-mesh-normals">
+          <float_array id="tns_net_a_md_003-mesh-normals-array" count="15">0 -1 0 0 1 0 -1 0 0 0 0 1 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_003-mesh-normals-array" count="5" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md_003-mesh-map-0">
+          <float_array id="tns_net_a_md_003-mesh-map-0-array" count="60">0 0 0 0 0 1 0 1 0 0 0 1 1 0 1 0 1 1 1 1 1 0 1 1 0 1 1 1 0 0 0 0 1 1 1 0 0 1 1 1 0 1 0 1 1 1 1 1 0 0 1 0 0 1 0 1 1 0 1 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_003-mesh-map-0-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tns_net_a_md_003-mesh-vertices">
+          <input semantic="POSITION" source="#tns_net_a_md_003-mesh-positions"/>
+        </vertices>
+        <triangles material="tns_line_c-material" count="10">
+          <input semantic="VERTEX" source="#tns_net_a_md_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#tns_net_a_md_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#tns_net_a_md_003-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 0 0 1 1 0 2 1 0 3 0 0 4 3 0 5 6 1 6 4 1 7 5 1 8 5 1 9 4 1 10 7 1 11 10 2 12 8 2 13 9 2 14 9 2 15 8 2 16 11 2 17 14 3 18 12 3 19 13 3 20 13 3 21 12 3 22 15 3 23 18 4 24 16 4 25 17 4 26 17 4 27 16 4 28 19 4 29</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="tns_net_a_md_002-mesh" name="tns_net_a.md.002">
+      <mesh>
+        <source id="tns_net_a_md_002-mesh-positions">
+          <float_array id="tns_net_a_md_002-mesh-positions-array" count="402">-0.00999999 -0.6395002 0 -0.007071018 -0.6324291 0.09033113 -0.007071018 -0.6324291 0 -0.00999999 -0.6395002 0.09033113 -0.007071018 -0.6465713 0 -0.007071018 -0.6465712 0.09033113 0 -0.6495002 0 0 -0.6495001 0.09033113 0.007071018 -0.6465713 0 0.007071018 -0.6465712 0.09033113 0.00999999 -0.6395002 0 0.00999999 -0.6395002 0.09033113 0.007071018 -0.6324291 0 0.007071018 -0.6324291 0.09033113 0 -0.6295002 0 0 -0.6295002 0.09033113 -0.007071018 -0.6324291 0 -0.007071018 -0.6324291 0.09033113 -0.007071018 -0.6324291 0.1036207 -0.00999999 -0.6395002 0.1036207 -0.007071018 -0.6465712 0.1036208 0 -0.6495001 0.1036208 0.007071018 -0.6465712 0.1036208 0.00999999 -0.6395002 0.1036208 0.007071018 -0.6324291 0.1036208 0 -0.6295002 0.1036207 0.007820606 -0.6316795 0.107954 0 -0.6284402 0.09793454 0 -0.6284402 0.1079539 0.007820606 -0.6316795 0.09793454 0.01106005 -0.6395002 0.107954 0.01106005 -0.6395002 0.09793454 0.007820606 -0.6473208 0.107954 0.007820606 -0.6473208 0.09793454 0 -0.6505602 0.107954 0 -0.6505602 0.09793454 -0.007820606 -0.6473208 0.107954 -0.007820606 -0.6473208 0.09793454 -0.01106005 -0.6395002 0.1079539 -0.01106005 -0.6395002 0.09793454 -0.007820606 -0.6316795 0.1079539 -0.007820606 -0.6316795 0.09793454 0.007820606 0.6316795 0.09793454 0.007820606 0.6316795 0.107954 0 0.6284401 0.09793454 0.01106005 0.6395002 0.107954 0.01106005 0.6395002 0.09793454 0.007820606 0.6473209 0.107954 0.007820606 0.6473209 0.09793454 0 0.6505602 0.107954 0 0.6505602 0.09793454 -0.007820606 0.6473209 0.107954 -0.007820606 0.6473209 0.09793454 -0.01106005 0.6395002 0.1079539 -0.01106005 0.6395002 0.09793454 -0.007820606 0.6316795 0.1079539 -0.007820606 0.6316795 0.09793454 -0.007071018 0.6324291 0.09033113 -0.00999999 0.6395002 0 -0.007071018 0.6324291 0 -0.00999999 0.6395002 0.09033113 -0.007071018 0.6324291 0.1036207 -0.00999999 0.6395002 0.1036207 -0.007071018 0.6465713 0 -0.007071018 0.6465712 0.09033113 -0.007071018 0.6465712 0.1036208 0 0.6495001 0 0 0.6495001 0.09033113 0 0.6495001 0.1036208 0.007071018 0.6465713 0 0.007071018 0.6465712 0.09033113 0.007071018 0.6465712 0.1036208 0.00999999 0.6395002 0 0.00999999 0.6395002 0.09033113 0.00999999 0.6395002 0.1036208 0.007071018 0.6324291 0 0.007071018 0.6324291 0.09033113 0.007071018 0.6324291 0.1036208 0 0.6295002 0 0 0.6295002 0.09033113 0 0.6295002 0.1036207 -0.007071018 0.6324291 0 -0.007071018 0.6324291 0.09033113 -0.007071018 0.6324291 0.1036207 -0.007820606 0.6316795 0.1079539 -0.007820606 0.6316795 0.09793454 0 0.6284401 0.1079539 -0.007071018 -0.6324291 0.1036207 -0.01106005 -0.6395002 0.1079539 0.007820606 -0.6473208 0.107954 0.01106005 -0.6395002 0.107954 -0.007820606 -0.6473208 0.107954 -0.001964032 -0.5944519 0.09907883 0.001964032 -0.5944519 0 -0.001964032 -0.5944519 0 0.001964032 -0.5944519 0.09907883 -0.001964032 -0.5944519 0.09907883 0.001964032 -0.6295 0.09907883 0.001964032 -0.5944519 0.09907883 -0.001964032 -0.6295 0.09907883 0.007820606 -0.6316795 0.107954 -0.01106005 -0.6395002 0.1079539 0.01106005 -0.6395002 0.107954 -0.007820606 -0.6316795 0.1079539 -0.007820606 -0.6316795 0.1079539 -0.007820606 -0.6316795 0.09793454 0.007820606 0.6473209 0.107954 -0.01106005 0.6395002 0.1079539 0.01106005 0.6395002 0.107954 -0.007820606 0.6473209 0.107954 0.001964032 0.5944519 0 -0.001964032 0.5944519 0.09907883 -0.001964032 0.5944519 0 0.001964032 0.5944519 0.09907883 0.001964032 0.6295 0.09907883 -0.001964032 0.5944519 0.09907883 0.001964032 0.5944519 0.09907883 -0.001964032 0.6295 0.09907883 -0.01106005 0.6395002 0.1079539 0.007820606 0.6316795 0.107954 0.01106005 0.6395002 0.107954 -0.007820606 0.6316795 0.1079539 0.007820606 -0.6316795 0.107954 0 -0.6284402 0.1079539 -0.007820606 -0.6316795 0.1079539 -0.007820606 -0.6473208 0.107954 0 -0.6505602 0.107954 0.007820606 -0.6473208 0.107954 0.007820606 0.6316795 0.107954 -0.007820606 0.6316795 0.1079539 0 0.6284401 0.1079539 -0.007820606 0.6473209 0.107954 0.007820606 0.6473209 0.107954 0 0.6505602 0.107954</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_002-mesh-positions-array" count="134" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md_002-mesh-normals">
+          <float_array id="tns_net_a_md_002-mesh-normals-array" count="321">-0.9238799 0.3826826 0 -1 1.23216e-7 0 -0.9238798 0.3826829 0 -1 -1.40671e-6 0 -0.7071061 -0.7071075 7.38843e-7 -0.7071051 -0.7071085 4.55647e-7 0 -1 1.45807e-6 0 -1 7.29033e-7 0.7071063 -0.7071074 9.11293e-7 0.7071052 -0.7071084 3.69421e-7 1 0 1.72451e-7 1 -1.5402e-6 0 0.7071061 0.7071076 0 0.7071063 0.7071074 0 0 1 0 0 1 0 -0.3826812 0.9238805 0 -0.3826811 0.9238805 0 -0.9238799 0.3826826 0 -1 -2.20761e-6 0 -0.7071046 -0.7071089 0 0 -1 0 0.7071051 -0.7071085 0 1 -1.55047e-6 0 0.7071065 0.7071071 0 4.92862e-7 1 0 3.90182e-7 1 0 0.7071064 0.7071072 0 -5.64739e-7 1 0 0.7071059 0.7071078 0 1 -1.3143e-6 0 1 -1.67368e-6 0 0.7071028 -0.7071108 0 0.7071027 -0.7071108 0 0 -1 0 0 -1 0 -0.7071024 -0.7071112 0 -0.7071032 -0.7071104 0 -1 -2.1152e-6 0 -1 -9.65191e-7 0 -0.9238798 0.3826828 0 -0.9238799 0.3826829 0 -6.57152e-7 -1 0 0.7071079 -0.7071057 0 0.7071086 -0.7071049 0 1 0 0 1 2.0536e-7 0 0.7071016 0.707112 0 0 1 0 0 1 0 -0.7071011 0.7071126 0 -0.707102 0.7071117 0 -1 6.77685e-7 0 -1 -6.16079e-7 0 -0.9238798 -0.3826828 0 -0.9238799 -0.3826829 0 -0.9238799 -0.3826826 0 -0.9238798 -0.3826829 0 -1 -1.6018e-6 0 -1 1.3143e-6 0 -0.9238799 -0.3826826 0 -1 2.20761e-6 0 -0.7071018 0.7071117 1.46789e-6 -0.7071051 0.7071085 1.3036e-7 -0.7071046 0.7071089 0 -2.4643e-7 1 1.37961e-6 -2.97771e-7 1 6.89803e-7 0 1 0 0.7071024 0.7071111 2.60718e-7 0.7071052 0.7071084 7.33938e-7 0.7071051 0.7071085 0 1 -1.49912e-6 1.72449e-7 1 1.5402e-6 0 1 1.55047e-6 0 0.7071061 -0.7071076 0 0.7071062 -0.7071074 0 0.7071065 -0.7071071 0 0 -1 0 0 -1 0 4.92862e-7 -1 0 -0.3826812 -0.9238805 0 -0.3826811 -0.9238805 0 -0.3826868 -0.9238781 0 -0.3826869 -0.9238782 0 6.98222e-7 -1 0 -2.01882e-6 8.37096e-7 1 -6.72938e-7 4.08983e-6 1 -1.61506e-6 1.81291e-6 1 0 5.7162e-6 1 0 0 1 -2.01882e-6 -8.37096e-7 1 -2.18608e-6 -4.32905e-7 1 -2.57634e-6 5.10204e-7 1 -2.8551e-6 1.18385e-6 1 -0.382681 0.9238806 0 -0.382681 0.9238806 0 -2.0188e-6 -8.37087e-7 1 -1.61504e-6 -1.81292e-6 1 -6.72934e-7 -4.08985e-6 1 0 -5.71624e-6 1 0 -1 0 -2.57633e-6 -5.10201e-7 1 -2.18607e-6 4.32906e-7 1 -2.85509e-6 -1.18385e-6 1 -2.29754e-6 6.89981e-6 1 -2.29754e-6 6.89981e-6 1 -2.29754e-6 -6.89981e-6 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_002-mesh-normals-array" count="107" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md_002-mesh-map-0">
+          <float_array id="tns_net_a_md_002-mesh-map-0-array" count="696">8 0 8.362176 0 8 3.534724 8 3.534724 8.362176 0 8.362176 3.534724 8.362176 0 8.724349 0 8.362176 3.534724 8.362176 3.534724 8.724349 0 8.724349 3.534724 8.724349 0 9.086521 0 8.724349 3.534724 8.724349 3.534724 9.086521 0 9.086521 3.534724 9.086521 0 9.448697 0 9.086521 3.534724 9.086521 3.534724 9.448697 0 9.448697 3.534724 9.448697 0 9.810869 0 9.448697 3.534724 9.448697 3.534724 9.810869 0 9.810869 3.534724 9.810869 0 10.17304 0 9.810869 3.534724 9.810869 3.534724 10.17304 0 10.17304 3.534724 10.17304 0 10.53522 0 10.17304 3.534724 10.17304 3.534724 10.53522 0 10.53522 3.534724 10.53522 0 10.89739 0 10.53522 3.534724 10.53522 3.534724 10.89739 0 10.89739 3.534724 8 3.534724 8.362176 3.534724 8 4 8 4 8.362176 3.534724 8.362176 4 8.362176 3.534724 8.724349 3.534724 8.362176 4 8.362176 4 8.724349 3.534724 8.724349 4 8.724349 3.534724 9.086521 3.534724 8.724349 4 8.724349 4 9.086521 3.534724 9.086521 4 9.086521 3.534724 9.448697 3.534724 9.086521 4 9.086521 4 9.448697 3.534724 9.448697 4 9.448697 3.534724 9.810869 3.534724 9.448697 4 9.448697 4 9.810869 3.534724 9.810869 4 9.810869 3.534724 10.17304 3.534724 9.810869 4 9.810869 4 10.17304 3.534724 10.17304 4 10.17304 3.534724 10.53522 3.534724 10.17304 4 10.17304 4 10.53522 3.534724 10.53522 4 2.788736 3.677776 2.390348 3.677776 2.788736 3.336944 2.788736 3.336944 2.390348 3.677776 2.390348 3.336944 2.390348 3.677776 1.991956 3.677776 2.390348 3.336944 2.390348 3.336944 1.991956 3.677776 1.991956 3.336944 1.991956 3.677776 1.593564 3.677776 1.991956 3.336944 1.991956 3.336944 1.593564 3.677776 1.593564 3.336944 1.593564 3.677776 1.195172 3.677776 1.593564 3.336944 1.593564 3.336944 1.195172 3.677776 1.195172 3.336944 1.195172 3.677776 0.796784 3.677776 1.195172 3.336944 1.195172 3.336944 0.796784 3.677776 0.796784 3.336944 0.796784 3.677776 0.398392 3.677776 0.796784 3.336944 0.796784 3.336944 0.398392 3.677776 0.398392 3.336944 0.398392 3.677776 0 3.677776 0.398392 3.336944 0.398392 3.336944 0 3.677776 0 3.336944 2.788736 3.336944 2.390348 3.336944 2.390348 3.677776 2.390348 3.677776 2.390348 3.336944 1.991956 3.677776 2.390348 3.336944 1.991956 3.336944 1.991956 3.677776 1.991956 3.677776 1.991956 3.336944 1.593564 3.677776 1.991956 3.336944 1.593564 3.336944 1.593564 3.677776 1.593564 3.677776 1.593564 3.336944 1.195172 3.677776 1.593564 3.336944 1.195172 3.336944 1.195172 3.677776 1.195172 3.677776 1.195172 3.336944 0.796784 3.677776 1.195172 3.336944 0.796784 3.336944 0.796784 3.677776 0.796784 3.677776 0.796784 3.336944 0.398392 3.677776 0.796784 3.336944 0.398392 3.336944 0.398392 3.677776 0.398392 3.677776 0.398392 3.336944 0 3.677776 0.398392 3.336944 0 3.336944 0 3.677776 8 0 8 3.534724 8.362176 0 8.362176 0 8 3.534724 8.362176 3.534724 8 3.534724 8 4 8.362176 3.534724 8.362176 3.534724 8 4 8.362176 4 8.362176 0 8.362176 3.534724 8.724349 0 8.724349 0 8.362176 3.534724 8.724349 3.534724 8.362176 3.534724 8.362176 4 8.724349 3.534724 8.724349 3.534724 8.362176 4 8.724349 4 8.724349 0 8.724349 3.534724 9.086521 0 9.086521 0 8.724349 3.534724 9.086521 3.534724 8.724349 3.534724 8.724349 4 9.086521 3.534724 9.086521 3.534724 8.724349 4 9.086521 4 9.086521 0 9.086521 3.534724 9.448697 0 9.448697 0 9.086521 3.534724 9.448697 3.534724 9.086521 3.534724 9.086521 4 9.448697 3.534724 9.448697 3.534724 9.086521 4 9.448697 4 9.448697 0 9.448697 3.534724 9.810869 0 9.810869 0 9.448697 3.534724 9.810869 3.534724 9.448697 3.534724 9.448697 4 9.810869 3.534724 9.810869 3.534724 9.448697 4 9.810869 4 9.810869 0 9.810869 3.534724 10.17304 0 10.17304 0 9.810869 3.534724 10.17304 3.534724 9.810869 3.534724 9.810869 4 10.17304 3.534724 10.17304 3.534724 9.810869 4 10.17304 4 10.17304 0 10.17304 3.534724 10.53522 0 10.53522 0 10.17304 3.534724 10.53522 3.534724 10.17304 3.534724 10.17304 4 10.53522 3.534724 10.53522 3.534724 10.17304 4 10.53522 4 10.53522 0 10.53522 3.534724 10.89739 0 10.89739 0 10.53522 3.534724 10.89739 3.534724 10.53522 3.534724 10.89739 4 10.89739 3.534724 3.187128 3.336944 2.788736 3.336944 3.187128 3.677776 3.187128 3.677776 2.788736 3.336944 2.788736 3.677776 2.788736 3.336944 2.390348 3.677776 2.788736 3.677776 10.89739 3.534724 10.89739 4 10.53522 3.534724 10.53522 3.534724 10.89739 4 10.53522 4 2.576452 0.510664 2.576452 1.872452 3.057912 0.7100921 3.057912 0.7100921 2.576452 1.872452 3.057912 1.673028 7.088588 0 7.088588 4 6.812664 0 6.812664 0 7.088588 4 6.812664 4 1.504608 3.657656 1.504608 3.657656 2.495392 3.657656 2.495392 3.657656 1.504608 3.657656 2.495392 3.657656 2.576452 0.510664 2.094984 0.7100921 2.576452 1.872452 2.576452 1.872452 2.094984 0.7100921 2.094984 1.673028 3.187128 3.336944 3.187128 3.677776 2.788736 3.336944 2.788736 3.336944 3.187128 3.677776 2.788736 3.677776 2.576452 0.510664 3.057912 0.7100921 2.576452 1.872452 2.576452 1.872452 3.057912 0.7100921 3.057912 1.673028 7.088584 0 6.81266 0 7.088584 4 7.088584 4 6.81266 0 6.81266 4 1.504608 3.657656 2.495392 3.657656 1.504608 3.657656 1.504608 3.657656 2.495392 3.657656 2.495392 3.657656 2.576452 0.510664 2.576452 1.872452 2.094984 0.7100921 2.094984 0.7100921 2.576452 1.872452 2.094984 1.673028 2.094984 1.673028 2.094984 0.7100921 1.895556 1.19156 3.057912 0.7100921 3.057912 1.673028 3.25734 1.19156 1.895556 1.19156 2.094984 0.7100921 2.094984 1.673028 3.25734 1.19156 3.057912 1.673028 3.057912 0.7100921 10.89739 4 10.53522 3.534724 10.53522 4</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_002-mesh-map-0-array" count="348" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tns_net_a_md_002-mesh-vertices">
+          <input semantic="POSITION" source="#tns_net_a_md_002-mesh-positions"/>
+        </vertices>
+        <triangles material="tns_WALL_a9-material" count="116">
+          <input semantic="VERTEX" source="#tns_net_a_md_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#tns_net_a_md_002-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#tns_net_a_md_002-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 0 1 1 1 2 2 1 2 3 0 1 4 3 3 5 0 1 6 4 4 7 3 3 8 3 3 9 4 4 10 5 5 11 4 4 12 6 6 13 5 5 14 5 5 15 6 6 16 7 7 17 6 6 18 8 8 19 7 7 20 7 7 21 8 8 22 9 9 23 8 8 24 10 10 25 9 9 26 9 9 27 10 10 28 11 11 29 10 10 30 12 12 31 11 11 32 11 11 33 12 12 34 13 13 35 12 12 36 14 14 37 13 13 38 13 13 39 14 14 40 15 15 41 14 14 42 16 16 43 15 15 44 15 15 45 16 16 46 17 17 47 1 2 48 3 3 49 18 18 50 18 18 51 3 3 52 19 19 53 3 3 54 5 5 55 19 19 56 19 19 57 5 5 58 20 20 59 5 5 60 7 7 61 20 20 62 20 20 63 7 7 64 21 21 65 7 7 66 9 9 67 21 21 68 21 21 69 9 9 70 22 22 71 9 9 72 11 11 73 22 22 74 22 22 75 11 11 76 23 23 77 11 11 78 13 13 79 23 23 80 23 23 81 13 13 82 24 24 83 13 13 84 15 15 85 24 24 86 24 24 87 15 15 88 25 25 89 28 26 90 26 27 91 27 28 92 27 28 93 26 27 94 29 29 95 26 27 96 30 30 97 29 29 98 29 29 99 30 30 100 31 31 101 30 30 102 32 32 103 31 31 104 31 31 105 32 32 106 33 33 107 32 32 108 34 34 109 33 33 110 33 33 111 34 34 112 35 35 113 34 34 114 36 36 115 35 35 116 35 35 117 36 36 118 37 37 119 36 36 120 38 38 121 37 37 122 37 37 123 38 38 124 39 39 125 38 38 126 40 40 127 39 39 128 39 39 129 40 40 130 41 41 131 44 42 132 42 43 133 43 44 134 43 44 135 42 43 136 45 45 137 42 43 138 46 46 139 45 45 140 45 45 141 46 46 142 47 47 143 46 46 144 48 47 145 47 47 146 47 47 147 48 47 148 49 48 149 48 47 150 50 49 151 49 48 152 49 48 153 50 49 154 51 50 155 50 49 156 52 51 157 51 50 158 51 50 159 52 51 160 53 52 161 52 51 162 54 53 163 53 52 164 53 52 165 54 53 166 55 54 167 54 53 168 56 55 169 55 54 170 59 56 171 57 57 172 58 58 173 58 58 174 57 57 175 60 59 176 57 57 177 61 60 178 60 59 179 60 59 180 61 60 181 62 61 182 58 58 183 60 59 184 63 62 185 63 62 186 60 59 187 64 63 188 60 59 189 62 61 190 64 63 191 64 63 192 62 61 193 65 64 194 63 62 195 64 63 196 66 65 197 66 65 198 64 63 199 67 66 200 64 63 201 65 64 202 67 66 203 67 66 204 65 64 205 68 67 206 66 65 207 67 66 208 69 68 209 69 68 210 67 66 211 70 69 212 67 66 213 68 67 214 70 69 215 70 69 216 68 67 217 71 70 218 69 68 219 70 69 220 72 71 221 72 71 222 70 69 223 73 72 224 70 69 225 71 70 226 73 72 227 73 72 228 71 70 229 74 73 230 72 71 231 73 72 232 75 74 233 75 74 234 73 72 235 76 75 236 73 72 237 74 73 238 76 75 239 76 75 240 74 73 241 77 76 242 75 74 243 76 75 244 78 77 245 78 77 246 76 75 247 79 78 248 76 75 249 77 76 250 79 78 251 79 78 252 77 76 253 80 79 254 78 77 255 79 78 256 81 80 257 81 80 258 79 78 259 82 81 260 79 78 261 83 81 262 82 81 263 85 82 264 44 42 265 84 83 266 84 83 267 44 42 268 86 84 269 44 42 270 43 44 271 86 84 272 17 17 273 87 17 274 15 15 275 15 15 276 87 17 277 25 25 278 90 85 279 88 86 280 89 87 281 89 87 282 88 86 283 91 88 284 94 48 285 92 48 286 93 48 287 93 48 288 92 48 289 95 48 290 98 89 291 96 89 292 97 89 293 97 89 294 96 89 295 99 89 296 102 90 297 100 91 298 101 92 299 101 92 300 100 91 301 103 93 302 105 94 303 104 95 304 27 28 305 27 28 306 104 95 307 28 26 308 108 96 309 106 97 310 107 98 311 107 98 312 106 97 313 109 99 314 112 100 315 110 100 316 111 100 317 111 100 318 110 100 319 113 100 320 116 89 321 114 89 322 115 89 323 115 89 324 114 89 325 117 89 326 120 85 327 118 101 328 119 102 329 119 102 330 118 101 331 121 103 332 124 104 333 122 104 334 123 105 335 127 89 336 125 89 337 126 89 338 130 106 339 128 106 340 129 106 341 133 89 342 131 89 343 132 89 344 83 81 345 79 78 346 80 79 347</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="tns_net_a_md_001-mesh" name="tns_net_a.md.001">
+      <mesh>
+        <source id="tns_net_a_md_001-mesh-positions">
+          <float_array id="tns_net_a_md_001-mesh-positions-array" count="48">-0.001964032 -0.5944519 0 -0.001964032 -0.6295 0.09907883 -0.001964032 -0.5944519 0.09907883 -0.001964032 -0.6295 0 0.001964032 -0.5944519 0.09907883 0.001964032 -0.6295 0 0.001964032 -0.5944519 0 0.001964032 -0.6295 0.09907883 -0.001964032 0.6295 0.09907883 -0.001964032 0.5944519 0 -0.001964032 0.5944519 0.09907883 -0.001964032 0.6295 0 0.001964032 0.6295 0 0.001964032 0.5944519 0.09907883 0.001964032 0.5944519 0 0.001964032 0.6295 0.09907883</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_001-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md_001-mesh-normals">
+          <float_array id="tns_net_a_md_001-mesh-normals-array" count="15">-1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_001-mesh-normals-array" count="5" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md_001-mesh-map-0">
+          <float_array id="tns_net_a_md_001-mesh-map-0-array" count="48">1.053476 3.153291 -0.06112098 3.153291 1.053476 1.816128 1.053476 1.816128 -0.06112098 3.153291 -0.06112098 1.816128 1.053476 3.153291 -0.06112098 3.153291 1.053476 1.816128 1.053476 1.816128 -0.06112098 3.153291 -0.06112098 1.816128 -0.06112098 3.153291 -0.06112098 1.816128 1.053476 3.153291 1.053476 3.153291 -0.06112098 1.816128 1.053476 1.816128 -0.06112098 3.153291 -0.06112098 1.816128 1.053476 3.153291 1.053476 3.153291 -0.06112098 1.816128 1.053476 1.816128</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md_001-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tns_net_a_md_001-mesh-vertices">
+          <input semantic="POSITION" source="#tns_net_a_md_001-mesh-positions"/>
+        </vertices>
+        <triangles material="tns_logo_d-material" count="8">
+          <input semantic="VERTEX" source="#tns_net_a_md_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#tns_net_a_md_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#tns_net_a_md_001-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 0 1 1 1 2 2 1 2 3 0 1 4 3 3 5 6 4 6 4 4 7 5 4 8 5 4 9 4 4 10 7 4 11 10 0 12 8 0 13 9 0 14 9 0 15 8 0 16 11 0 17 14 4 18 12 4 19 13 4 20 13 4 21 12 4 22 15 4 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="tns_net_a_md-mesh" name="tns_net_a.md">
+      <mesh>
+        <source id="tns_net_a_md-mesh-positions">
+          <float_array id="tns_net_a_md-mesh-positions-array" count="42">-5e-4 0.6395 0.107 -5e-4 0 0.08399999 -5e-4 0 0.09149998 -5e-4 0.6395 0.0995 -5e-4 -0.6395 0.0995 -5e-4 -0.6395 0.107 -5e-4 0 0.08399999 5e-4 0.6395 0.0995 5e-4 0 0.09149998 5e-4 0 0.08399999 5e-4 0.6395 0.107 5e-4 0 0.08399999 5e-4 -0.6395 0.107 5e-4 -0.6395 0.0995</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md-mesh-positions-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md-mesh-normals">
+          <float_array id="tns_net_a_md-mesh-normals-array" count="30">-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md-mesh-normals-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_md-mesh-map-0">
+          <float_array id="tns_net_a_md-mesh-map-0-array" count="48">0 -1 60 -1 0 -2 0 -2 60 -1 60 -2 -60 -1 0 -1 -60 -2 -60 -2 0 -1 0 -2 0 -2 60 -2 0 -1 0 -1 60 -2 60 -1 -60 -2 0 -2 -60 -1 -60 -1 0 -2 0 -1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_md-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tns_net_a_md-mesh-vertices">
+          <input semantic="POSITION" source="#tns_net_a_md-mesh-positions"/>
+        </vertices>
+        <triangles material="tns_line_a-material" count="8">
+          <input semantic="VERTEX" source="#tns_net_a_md-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#tns_net_a_md-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#tns_net_a_md-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 0 1 1 1 1 2 1 1 3 0 1 4 3 1 5 5 2 6 2 0 7 4 3 8 4 3 9 2 0 10 6 4 11 9 5 12 7 6 13 8 7 14 8 7 15 7 6 16 10 8 17 13 9 18 11 9 19 12 9 20 12 9 21 11 9 22 8 7 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="tns_net_a_ao_tns_net_a_mo_005-skin" name="tns_net_a.ao">
+      <skin source="#tns_net_a_md_005-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="tns_net_a_ao_tns_net_a_mo_005-skin-joints">
+          <Name_array id="tns_net_a_ao_tns_net_a_mo_005-skin-joints-array" count="2">joint1 joint2</Name_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_005-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo_005-skin-bind_poses">
+          <float_array id="tns_net_a_ao_tns_net_a_mo_005-skin-bind_poses-array" count="32">1 0 0 0 0 1 0 0.64 0 0 1 -0.06999999 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 -0.06999999 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_005-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo_005-skin-weights">
+          <float_array id="tns_net_a_ao_tns_net_a_mo_005-skin-weights-array" count="6">1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_005-skin-weights-array" count="6" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo_005-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#tns_net_a_ao_tns_net_a_mo_005-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="6">
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo_005-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#tns_net_a_ao_tns_net_a_mo_005-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 </vcount>
+          <v>0 0 1 1 0 2 0 3 0 4 0 5</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="tns_net_a_ao_tns_net_a_mo_004-skin" name="tns_net_a.ao">
+      <skin source="#tns_net_a_md_004-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="tns_net_a_ao_tns_net_a_mo_004-skin-joints">
+          <Name_array id="tns_net_a_ao_tns_net_a_mo_004-skin-joints-array" count="2">joint1 joint2</Name_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_004-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo_004-skin-bind_poses">
+          <float_array id="tns_net_a_ao_tns_net_a_mo_004-skin-bind_poses-array" count="32">1 0 0 0 0 1 0 0.64 0 0 1 -0.06999999 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 -0.06999999 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_004-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo_004-skin-weights">
+          <float_array id="tns_net_a_ao_tns_net_a_mo_004-skin-weights-array" count="6">1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_004-skin-weights-array" count="6" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo_004-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#tns_net_a_ao_tns_net_a_mo_004-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="6">
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo_004-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#tns_net_a_ao_tns_net_a_mo_004-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 </vcount>
+          <v>0 0 1 1 0 2 0 3 0 4 0 5</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="tns_net_a_ao_tns_net_a_mo_003-skin" name="tns_net_a.ao">
+      <skin source="#tns_net_a_md_003-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="tns_net_a_ao_tns_net_a_mo_003-skin-joints">
+          <Name_array id="tns_net_a_ao_tns_net_a_mo_003-skin-joints-array" count="2">joint1 joint2</Name_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_003-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo_003-skin-bind_poses">
+          <float_array id="tns_net_a_ao_tns_net_a_mo_003-skin-bind_poses-array" count="32">1 0 0 0 0 1 0 0.64 0 0 1 -0.06999999 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 -0.06999999 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_003-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo_003-skin-weights">
+          <float_array id="tns_net_a_ao_tns_net_a_mo_003-skin-weights-array" count="20">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_003-skin-weights-array" count="20" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo_003-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#tns_net_a_ao_tns_net_a_mo_003-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="20">
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo_003-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#tns_net_a_ao_tns_net_a_mo_003-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 1 1 0 2 1 3 0 4 1 5 0 6 1 7 1 8 0 9 1 10 0 11 1 12 1 13 1 14 1 15 0 16 1 17 0 18 1 19</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="tns_net_a_ao_tns_net_a_mo_002-skin" name="tns_net_a.ao">
+      <skin source="#tns_net_a_md_002-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="tns_net_a_ao_tns_net_a_mo_002-skin-joints">
+          <Name_array id="tns_net_a_ao_tns_net_a_mo_002-skin-joints-array" count="2">joint1 joint2</Name_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_002-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo_002-skin-bind_poses">
+          <float_array id="tns_net_a_ao_tns_net_a_mo_002-skin-bind_poses-array" count="32">1 0 0 0 0 1 0 0.64 0 0 1 -0.06999999 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 -0.06999999 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_002-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo_002-skin-weights">
+          <float_array id="tns_net_a_ao_tns_net_a_mo_002-skin-weights-array" count="134">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_002-skin-weights-array" count="134" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo_002-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#tns_net_a_ao_tns_net_a_mo_002-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="134">
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo_002-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#tns_net_a_ao_tns_net_a_mo_002-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0 13 0 14 0 15 0 16 0 17 0 18 0 19 0 20 0 21 0 22 0 23 0 24 0 25 0 26 0 27 0 28 0 29 0 30 0 31 0 32 0 33 0 34 0 35 0 36 0 37 0 38 0 39 0 40 0 41 0 42 0 43 0 44 0 45 0 46 0 47 0 48 0 49 0 50 0 51 0 52 0 53 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 0 63 0 64 0 65 0 66 0 67 0 68 0 69 0 70 0 71 0 72 0 73 0 74 0 75 0 76 0 77 0 78 0 79 0 80 0 81 0 82 0 83 0 84 0 85 0 86 0 87 0 88 0 89 0 90 0 91 0 92 0 93 0 94 0 95 0 96 0 97 0 98 0 99 0 100 0 101 0 102 0 103 0 104 0 105 0 106 0 107 0 108 0 109 0 110 0 111 0 112 0 113 0 114 0 115 0 116 0 117 0 118 0 119 0 120 0 121 0 122 0 123 0 124 0 125 0 126 0 127 0 128 0 129 0 130 0 131 0 132 0 133</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="tns_net_a_ao_tns_net_a_mo_001-skin" name="tns_net_a.ao">
+      <skin source="#tns_net_a_md_001-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="tns_net_a_ao_tns_net_a_mo_001-skin-joints">
+          <Name_array id="tns_net_a_ao_tns_net_a_mo_001-skin-joints-array" count="2">joint1 joint2</Name_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_001-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo_001-skin-bind_poses">
+          <float_array id="tns_net_a_ao_tns_net_a_mo_001-skin-bind_poses-array" count="32">1 0 0 0 0 1 0 0.64 0 0 1 -0.06999999 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 -0.06999999 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_001-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo_001-skin-weights">
+          <float_array id="tns_net_a_ao_tns_net_a_mo_001-skin-weights-array" count="16">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo_001-skin-weights-array" count="16" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo_001-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#tns_net_a_ao_tns_net_a_mo_001-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo_001-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#tns_net_a_ao_tns_net_a_mo_001-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0 13 0 14 0 15</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="tns_net_a_ao_tns_net_a_mo-skin" name="tns_net_a.ao">
+      <skin source="#tns_net_a_md-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="tns_net_a_ao_tns_net_a_mo-skin-joints">
+          <Name_array id="tns_net_a_ao_tns_net_a_mo-skin-joints-array" count="2">joint1 joint2</Name_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo-skin-bind_poses">
+          <float_array id="tns_net_a_ao_tns_net_a_mo-skin-bind_poses-array" count="32">1 0 0 0 0 1 0 0.64 0 0 1 -0.06999999 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 -0.06999999 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tns_net_a_ao_tns_net_a_mo-skin-weights">
+          <float_array id="tns_net_a_ao_tns_net_a_mo-skin-weights-array" count="14">1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#tns_net_a_ao_tns_net_a_mo-skin-weights-array" count="14" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#tns_net_a_ao_tns_net_a_mo-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="14">
+          <input semantic="JOINT" source="#tns_net_a_ao_tns_net_a_mo-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#tns_net_a_ao_tns_net_a_mo-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 1 1 1 2 0 3 0 4 0 5 1 6 0 7 1 8 1 9 0 10 1 11 0 12 0 13</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="tns_net_a_ao" name="tns_net_a.ao" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="tns_net_a_ao_joint1" name="joint1" sid="joint1" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 -0.64 0 0 1 0.07 0 0 0 1</matrix>
+          <node id="tns_net_a_ao_joint2" name="joint2" sid="joint2" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0.64 0 0 1 0 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">0.26</tip_y>
+                <tip_z sid="tip_z" type="float">0</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">0.26</tip_y>
+              <tip_z sid="tip_z" type="float">0</tip_z>
+            </technique>
+          </extra>
+        </node>
+        <node id="tns_net_a_mo" name="tns_net_a.mo" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#tns_net_a_ao_tns_net_a_mo-skin">
+            <skeleton>#tns_net_a_ao_joint1</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="tns_line_a-material" target="#tns_line_a-material">
+                  <bind_vertex_input semantic="UV_SINGLE" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+        <node id="tns_net_a_mo_001" name="tns_net_a.mo.001" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#tns_net_a_ao_tns_net_a_mo_001-skin">
+            <skeleton>#tns_net_a_ao_joint1</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="tns_logo_d-material" target="#tns_logo_d-material">
+                  <bind_vertex_input semantic="UV_SINGLE" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+        <node id="tns_net_a_mo_002" name="tns_net_a.mo.002" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#tns_net_a_ao_tns_net_a_mo_002-skin">
+            <skeleton>#tns_net_a_ao_joint1</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="tns_WALL_a9-material" target="#tns_WALL_a9-material">
+                  <bind_vertex_input semantic="UV_SINGLE" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+        <node id="tns_net_a_mo_003" name="tns_net_a.mo.003" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#tns_net_a_ao_tns_net_a_mo_003-skin">
+            <skeleton>#tns_net_a_ao_joint1</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="tns_line_c-material" target="#tns_line_c-material">
+                  <bind_vertex_input semantic="UV_SINGLE" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+        <node id="tns_net_a_mo_004" name="tns_net_a.mo.004" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#tns_net_a_ao_tns_net_a_mo_004-skin">
+            <skeleton>#tns_net_a_ao_joint1</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="tns_S_net-material" target="#tns_S_net-material">
+                  <bind_vertex_input semantic="UV_SINGLE" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+        <node id="tns_net_a_mo_005" name="tns_net_a.mo.005" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#tns_net_a_ao_tns_net_a_mo_005-skin">
+            <skeleton>#tns_net_a_ao_joint1</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="tns_net_a-material" target="#tns_net_a-material">
+                  <bind_vertex_input semantic="UV_SINGLE" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
