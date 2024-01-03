@@ -386,7 +386,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3974624634553340050, guid: 7bb1b786073feb54cae9235ac894add3, type: 3}
 --- !u!1 &388715525
@@ -672,6 +672,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3419295476360188108, guid: 0c8bc8846865da740bd6a379839dc079,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3419295476360188108, guid: 0c8bc8846865da740bd6a379839dc079,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3419295476360188108, guid: 0c8bc8846865da740bd6a379839dc079,
+        type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: dc1a2d8bfa74dba4bb991a0182a85987, type: 2}
@@ -684,7 +694,11 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: -1724161567757354285, guid: 0c8bc8846865da740bd6a379839dc079, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7089208419827823754, guid: 0c8bc8846865da740bd6a379839dc079,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 966964507}
   m_SourcePrefab: {fileID: 100100000, guid: 0c8bc8846865da740bd6a379839dc079, type: 3}
 --- !u!1 &629568914 stripped
 GameObject:
@@ -1559,6 +1573,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tennis Racket
       objectReference: {fileID: 0}
+    - target: {fileID: 2951615694352527154, guid: 7bb1b786073feb54cae9235ac894add3,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951615694352527154, guid: 7bb1b786073feb54cae9235ac894add3,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 18e876e03750ab6488c77492761602ec, type: 2}
     - target: {fileID: 8045750151150833533, guid: 7bb1b786073feb54cae9235ac894add3,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -1629,17 +1653,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5a74116aa7bec1f4a9a0a95d336fa64a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.59
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a74116aa7bec1f4a9a0a95d336fa64a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.39
+      value: 4.95
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a74116aa7bec1f4a9a0a95d336fa64a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.9372406
+      value: -4.94
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a74116aa7bec1f4a9a0a95d336fa64a,
         type: 3}
@@ -1771,6 +1795,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 4b5efa0c69d901449a38989140500c0d, type: 2}
+    - target: {fileID: 13700000, guid: ca20b3907ff1c794cb89c1ad2cce8282, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1938,6 +1966,34 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5625318477645999168, guid: 61df84e3dc2205e419c6898a2f91b8e7, type: 3}
+--- !u!1 &966964504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7089208419827823754, guid: 0c8bc8846865da740bd6a379839dc079,
+    type: 3}
+  m_PrefabInstance: {fileID: 498404731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &966964507
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966964504}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3536905581865575432, guid: 0c8bc8846865da740bd6a379839dc079, type: 3}
 --- !u!1 &1013258822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6069733093755825253, guid: 61df84e3dc2205e419c6898a2f91b8e7,
