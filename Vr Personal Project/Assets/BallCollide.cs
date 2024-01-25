@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BallCollide : MonoBehaviour
 {
+    PlayerController playercontroller
     private int bounceCount;
     // Start is called before the first frame update
     void Start()
@@ -14,11 +15,16 @@ public class BallCollide : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if 
-        if (bounceCount < 2){
-        //reset ball ig    
-        
-        
-        }  
+
+    }
+    private void OnTriggerEnter(Collider other) {
+        bounceCount++;
+
+        if (bounceCount < 2)
+        {
+            gameObject.transform.position = new Vector3(25f, 0f, 0f);
+
+
+        }
     }
 }
