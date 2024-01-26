@@ -410,6 +410,7 @@
 "Assets/AnimateHandonInput.cs"
 "Assets/BallCollide.cs"
 "Assets/FrisbeeController.cs"
+"Assets/MagnusEffect.cs"
 "Assets/Out.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0
