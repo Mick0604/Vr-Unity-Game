@@ -412,6 +412,7 @@
 "Assets/FrisbeeController.cs"
 "Assets/MagnusEffect.cs"
 "Assets/Out.cs"
+"Assets/SprintAndJump.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0
 
